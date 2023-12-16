@@ -29,6 +29,7 @@ public class MainMenu {
         Scanner scanner = new Scanner(System.in);
         
         attributesDeclaration attdeclaration = new attributesDeclaration();
+        /*
         loops loop = new loops();
         instanciation instantiate = new instanciation();
         inheritance inherit = new inheritance();
@@ -39,7 +40,7 @@ public class MainMenu {
         methodOverriding methodOverride = new methodOverriding();
         constructor Constructor = new constructor();
         overloadingConstructor overloadingconstructor = new overloadingConstructor();
-        overridingPolymorphism overridingpolymorphism = new overridingPolymorphism();
+        overridingPolymorphism overridingpolymorphism = new overridingPolymorphism();*/
         while (true) {
             System.out.println("\033[H\033[2J");
             System.out.flush();
@@ -61,42 +62,42 @@ public class MainMenu {
                     attdeclaration.display();
                     break;
                 case 2:
-                    loop.display();
+                    //loop.display();
                     System.out.println(" ");
                     break;
                 case 3:
-                   instantiate.display();
+                   //instantiate.display();
                     break;
                 case 4:
-                    inherit.display();
+                    //inherit.display();
                     System.out.println(" ");
                     break;
                 case 5:
-                    encap.display();
+                    //encap.display();
                     System.out.println(" ");
                     break;
                 case 6:
-                    interfacepolymorphism.display();
+                    //interfacepolymorphism.display();
                     System.out.println(" ");
                     break;
                 case 7:
-                    methodOverload.display();
+                    //methodOverload.display();
                     System.out.println(" ");
                     break;
                 case 8:
-                    methodOverride.display();
+                    //methodOverride.display();
                     System.out.println(" ");
                     break;
                 case 9:
-                    Constructor.display();
+                    //Constructor.display();
                     System.out.println(" ");
                     break;    
                 case 10:
-                    overloadingconstructor.display();
+                    //overloadingconstructor.display();
                     System.out.println(" ");
                     break;    
                 case 11:
-                    overridingpolymorphism.display();
+                    //overridingpolymorphism.display();
                     System.out.println(" ");
                     break;                
                 case 12:

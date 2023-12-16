@@ -9,13 +9,9 @@ package oop_final_project;
  * @author Abdullah
  */
 import java.util.Scanner;
-public class OOP_Final_Project {
-
-    /**
-     * @param args the command line arguments
-     */
+public class MainMenu {
+    public static final String GREEN = "\u001B[32m";
     public static void main(String[] args) {
-        // TODO code application logic here
         // TODO code application logic here
 
         menu1();
@@ -31,7 +27,7 @@ public class OOP_Final_Project {
         System.out.println("\033[H\033[2J");
         System.out.flush();
         Scanner scanner = new Scanner(System.in);
-        /*
+        
         attributesDeclaration attdeclaration = new attributesDeclaration();
         loops loop = new loops();
         instanciation instantiate = new instanciation();
@@ -43,11 +39,11 @@ public class OOP_Final_Project {
         methodOverriding methodOverride = new methodOverriding();
         constructor Constructor = new constructor();
         overloadingConstructor overloadingconstructor = new overloadingConstructor();
-        overridingPolymorphism overridingpolymorphism = new overridingPolymorphism();*/
+        overridingPolymorphism overridingpolymorphism = new overridingPolymorphism();
         while (true) {
             System.out.println("\033[H\033[2J");
             System.out.flush();
-            System.out.println( "* * * * * * * * * * * * Menu * * * * * * * * * * * *" );
+            System.out.println(GREEN+ "* * * * * * * * * * * * Menu * * * * * * * * * * * *" );
             System.out.println("1. Attributes Declaration" +"     " +"7. Method Overloading");
             System.out.println("2. Loops"                  +"                      " + "8. Methods Overriding");
             System.out.println("3. Instancitaion"          +"              " +  "9. Constructor");
@@ -62,45 +58,45 @@ public class OOP_Final_Project {
 
             switch (choice) {
                 case 1:
-                    //attdeclaration.display();
+                    attdeclaration.display();
                     break;
                 case 2:
-                    //loop.display();
+                    loop.display();
                     System.out.println(" ");
                     break;
                 case 3:
-                   //instantiate.display();
+                   instantiate.display();
                     break;
                 case 4:
-                    //inherit.display();
+                    inherit.display();
                     System.out.println(" ");
                     break;
                 case 5:
-                    //encap.display();
+                    encap.display();
                     System.out.println(" ");
                     break;
                 case 6:
-                    //interfacepolymorphism.display();
+                    interfacepolymorphism.display();
                     System.out.println(" ");
                     break;
                 case 7:
-                    //methodOverload.display();
+                    methodOverload.display();
                     System.out.println(" ");
                     break;
                 case 8:
-                    //methodOverride.display();
+                    methodOverride.display();
                     System.out.println(" ");
                     break;
                 case 9:
-                    //Constructor.display();
+                    Constructor.display();
                     System.out.println(" ");
                     break;    
                 case 10:
-                    //overloadingconstructor.display();
+                    overloadingconstructor.display();
                     System.out.println(" ");
                     break;    
                 case 11:
-                    //overridingpolymorphism.display();
+                    overridingpolymorphism.display();
                     System.out.println(" ");
                     break;                
                 case 12:
@@ -111,7 +107,5 @@ public class OOP_Final_Project {
             }
             break;
         }       
-    
     }
-    
 }

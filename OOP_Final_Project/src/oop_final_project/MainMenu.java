@@ -29,9 +29,9 @@ public class MainMenu {
         Scanner scanner = new Scanner(System.in);
         
         attributesDeclaration attdeclaration = new attributesDeclaration();
-        /*
-        loops loop = new loops();
-        instanciation instantiate = new instanciation();
+        
+        loop loops = new loop();
+        /*instanciation instantiate = new instanciation();
         inheritance inherit = new inheritance();
         encapsulation encap = new encapsulation();
         interfacePolymorphism interfacepolymorphism = new interfacePolymorphism();
@@ -62,7 +62,7 @@ public class MainMenu {
                     attdeclaration.display();
                     break;
                 case 2:
-                    //loop.display();
+                    loops.display();
                     System.out.println(" ");
                     break;
                 case 3:
